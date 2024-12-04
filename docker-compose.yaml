@@ -1,6 +1,6 @@
 services:
   nginx:
-    build: ./nginx
+    build: /home/ubuntu/asdfasdfasdfadf/nginx
     volumes:
       - static_volume:/usr/src/app/_static
       - media_volume:/usr/src/app/_media
